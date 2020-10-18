@@ -1,4 +1,7 @@
-package creational.factory;
+package creational;
+
+import creational.factory.AbstractFactory;
+import creational.factory.FactoryProducer;
 
 import static creational.factory.ShapeType.RECTANGLE;
 import static creational.factory.ShapeType.SQUARE;

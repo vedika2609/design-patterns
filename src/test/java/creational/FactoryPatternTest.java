@@ -1,7 +1,8 @@
-package creational.factory;
+package creational;
+
+import creational.factory.ShapeFactory;
 
 import static creational.factory.ShapeType.*;
-
 /*
  * Created by : vedikagupta
  * Date : 18/10/20

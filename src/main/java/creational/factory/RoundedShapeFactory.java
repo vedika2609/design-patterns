@@ -5,7 +5,7 @@ package creational.factory;
  * Date : 18/10/20
  */
 class RoundedShapeFactory extends AbstractFactory {
-    Shape getShape(ShapeType shape) {
+    public Shape getShape(ShapeType shape) {
         switch (shape) {
             case SQUARE:
                 return new RoundedSquare();
