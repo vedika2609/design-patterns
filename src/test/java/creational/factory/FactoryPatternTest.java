@@ -9,11 +9,8 @@ import static creational.factory.ShapeType.*;
 public class FactoryPatternTest {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
-        Shape shape1 = shapeFactory.getShape(RECTANGLE);
-        Shape shape2 = shapeFactory.getShape(CIRCLE);
-        Shape shape3 = shapeFactory.getShape(SQUARE);
-        shape1.draw();
-        shape2.draw();
-        shape3.draw();
+        shapeFactory.getShape(RECTANGLE).draw();
+        shapeFactory.getShape(CIRCLE).draw();
+        shapeFactory.getShape(SQUARE).draw();
     }
 }
