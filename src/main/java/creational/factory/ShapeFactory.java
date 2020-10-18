@@ -1,9 +1,10 @@
 package creational.factory;
+
 /*
  * Created by : vedikagupta
  * Date : 18/10/20
  */
-public class ShapeFactory {
+class ShapeFactory extends AbstractFactory {
     Shape getShape(ShapeType shape){
         switch (shape){
             case CIRCLE:
@@ -14,9 +15,5 @@ public class ShapeFactory {
                 return new Rectangle();
         }
         return null;
-    }
-
-    enum ShapeType{
-        RECTANGLE, CIRCLE, SQUARE
     }
 }

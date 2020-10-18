@@ -1,12 +1,12 @@
 package creational.factory;
 
-import static creational.factory.ShapeFactory.ShapeType.*;
+import static creational.factory.ShapeType.*;
 
 /*
  * Created by : vedikagupta
  * Date : 18/10/20
  */
-public class FactoryPatternDemo {
+public class FactoryPatternTest {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
         Shape shape1 = shapeFactory.getShape(RECTANGLE);
